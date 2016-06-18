@@ -3,6 +3,7 @@
 It is a very simple real time chat, web application
 ## Installation
 First you should download the project with the following command: 
+
 `git clone https://github.com/martin4955/react-chat-project.git`
 
 Then you shold install the dependencies via npm (node package manager)

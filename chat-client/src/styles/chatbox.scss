@@ -1,0 +1,36 @@
+//Colors
+@import 'colors';
+
+.chat-box {
+	textarea {
+		width: 99.5%;
+	}
+	input {
+		height: 23px;
+		width: 82%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	button {
+		width: 15%;
+	}
+}
+
+.chat-box__chat-area {
+	width: 98%;
+	height: 200px;
+	padding: 5px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	font-size: 0.8em;
+}
+
+.chat-message__sender {
+	font-weight: bold;
+}
+
+.chat-box__chat-area__message {
+	padding: 2px;
+}

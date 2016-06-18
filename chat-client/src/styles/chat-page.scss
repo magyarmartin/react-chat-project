@@ -1,0 +1,31 @@
+//Colors
+@import 'colors';
+
+#chat-panel {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 500px;
+}
+
+.nav-bar {
+	height: 40px;
+	background-color: $blue;
+	position: relative;
+	button {
+		display: inline-block;
+		position: absolute;
+  		top: 50%;
+  		transform: translateY(-50%);
+	}
+
+	h1 {
+		margin-top: 10px;
+		font-size: 20px;
+		font-family: arial;
+		font-weight: bold;
+		display: inline-block;
+	}
+}

@@ -1,0 +1,29 @@
+//Colors
+@import 'colors';
+
+.panel {
+	border: 1px solid $blue;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-family: arial;
+}
+
+.panel__head {
+	background-color: $blue;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 20px;
+}
+
+.panel__body {
+	background-color: white;
+}
+
+.panel__footer {
+	border-top: 1px solid $blue;
+	background-color: #D1D6EA;
+	padding: 5px;
+}

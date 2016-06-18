@@ -1,0 +1,55 @@
+//Reset CSS
+@import 'reset';
+//Colors
+@import 'colors';
+
+$lightend-blue: lighten($blue,20);
+
+input {
+	outline: none;
+	border: 1px solid $lightend-blue;
+}
+
+input:focus {
+	border: 1px solid $blue;
+}
+
+button {
+	padding: 5px;
+	outline: none;
+	border: 1px solid $lightend-blue;
+	background-color: white;
+}
+
+button:hover {
+	background-color: $lightend-blue;
+}
+
+button:active {
+	background-color: $blue;
+}
+
+textarea {
+	outline: none;
+	border: 1px solid $lightend-blue;
+}
+
+textarea:focus {
+	border: 1px solid $blue;
+}
+
+body {
+	background: url(../img/roulette.png),linear-gradient(complement($light-grey), $blue);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom left;
+}
+
+a {
+	color: $lightend-blue;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
